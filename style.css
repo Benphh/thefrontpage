@@ -5,4 +5,15 @@
 
 .card {
     padding:0px;
+    margin-right:20px;
+    margin-bottom: 50px;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.page-footer {
+    border-top: 1px solid #0d1e2e;
+    padding:50px;
 }
