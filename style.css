@@ -17,3 +17,21 @@
     border-top: 1px solid #0d1e2e;
     padding:50px;
 }
+
+.header h1 {
+    text-align: center; 
+    padding-top:30px;
+    font-family: 'Courier New', monspace;
+    font-size:calc(2em + 2vw);
+    color:#0c445d;
+}
+
+
+
+.date {
+    text-align:center;
+}
+
+.row {
+    margin-left:30px;
+}
