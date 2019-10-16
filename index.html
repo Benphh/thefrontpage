@@ -12,7 +12,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body style="background-color: #f9f9f9;">
 
 <!--This is the main header-->
 <div class="header">
@@ -35,91 +35,57 @@
 
 <!--International News-->
 <div class="container_fluid" >
-    <h2 style="text-align: center;color:#0c445d">How you get the news is changing in:</h2><br>
-    <h1 id="demo" style="text-align: center;color:#0c445d;font-family: 'Courier New', monspace;"></h1><br><br><br><br>
-    <em><h2 style="color: #0c445d;text-align: center;">Come join us for the ride. <br> Wednesday 6.30am</h2></em>
-    <em><a href="https://www.twitter.com/thefronttweets"><h2 style="color: #0c445d;text-align: center;"><i class="fa fa-twitter" style="font-size:36px"></i>@thefronttweets</h2></a></em>
 
-    <script>
-    // Set the date we're counting down to
-    var countDownDate = new Date("Oct 16, 2019 6:30:00").getTime();
-    
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-    
-      // Get today's date and time
-      var now = new Date().getTime();
-    
-      // Find the distance between now and the count down date
-      var distance = countDownDate - now;
-    
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-      // Display the result in the element with id="demo"
-      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-      + minutes + "m " + seconds + "s ";
-    
-      // If the count down is finished, write some text 
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-    </script>
   <!--<h1 style="text-align: center;color:#0c445d;";>International</h1>-->
-  <!--<div class="row" style="margin-left:30px;">
+  <div class="row" style="margin-left:30px;">
     
     <div class="card col-sm-5"  >
       <div class="card-body">
-        <h4 class="card-title">Turkey Offensive in Syria</h4>
-        <strong><p class="card-text" >The Facts Today:</p></strong>
-        <p class="card-text"style="text-indent: 20px;">At roughly 2pm(GMT +1) Wednesday Turkish Armed Forces with the Syrian National Army (official army of the opposition during the Syrian Civil Way) launched Operation Peace Spring - their offensive into Kurdish controlled lands in the North East of Syria.</p>
-        <p class="card-text"style="text-indent: 20px;">The Kurds are an Iranian ethnic group that typically occupy mountainous lands in Turkey,Syria,Iran and Iraq that is known as Kurdistan.</p>
-        <p class="card-text"style="text-indent: 20px;">The President of Turkey, Recep Tayyip Erdoğan, has said that this operation is to ‘prevent the creation of a terror corridor’ on the Turkey-Syria border, by both Kurdish militants and Islamic State.</p>
-        <p class="card-text"style="text-indent: 20px;">The Kurdish-led Syrian Democratic Forces have pledged to resist any offensive and have urged citizens to ‘resist during this delicate historical moment’.</p>
-        <p class="card-text"style="text-indent: 20px;">The Kurds are key US allies in the region and currently hold in the region of 90,000 IS fighters and relatives - it hasn’t been stated yet how Turkey will hold these people.</p>
-        <p class="card-text"style="text-indent: 20px;">US President Donald Trump has said ‘Turkey is now responsible for ensuring all Isis fighters being held captive remain in prison and that Isis does not reconstitute in any way, shape, or form’.</p>
-        <p class="card-text"style="text-indent: 20px;">President Donald Trump tweeted: “if Turkey does anything that I, in my great and unmatched wisdom, consider to be off limits, I will totally destroy and obliterate the economy of Turkey”.</p>
-        <p class="card-text"style="text-indent: 20px;">German Foreign Office tweeted: We strongly condemn Turkish offensive in Northeast #Syria. Turkey risks further destabilization of the region & #ISIS resurgence. We call on #Turkey to end the offensive & pursue its security interests peacefully.</p>
+        <h4 class="card-title">Brexit deadline looms over late talks.</h4>
+        <ul><strong><p class="card-text" >The Facts Today:</p></strong>
+        <li><p class="card-text">EU chief negotiator Michel Barnier has given PM Johnson until 12am Tuesday to agree to a border in the Irish Sea.</p></li>
+        <li><p class="card-text">The DUP was to meet with the PM on Tuesday for 90 minutes, they said before the meeting that ‘further work is required’ on the issue of the Irish border.</p></li>
+        <li><p class="card-text">MP’s are due to meet this Saturday - the final day that the UK had to request an extension from the EU.</p></li>
+        <li><p class="card-text">EU leaders are to meet for an emergency summit on Thursday and Friday.</p></li>
+        <li> <p class="card-text">A deal for the EU27 to vote on is due to be published by No.10 today - talks on the deal continued through last night.</p></li>
+        <li><p class="card-text">PM Johnson will require the support of Conservatives and the DUP to get his deal through Parliament.</p></li>
+        </ul>
         <strong><p class="card-text"style="text-align:left">From around the Web:</p></strong>
-        <a href="https://www.ft.com/content/89aa1394-ea5d-11e9-85f4-d00e5018f061" class="btn btn-primary ">Financial Times</a>
+        <a href="https://www.theguardian.com/politics/2019/oct/15/boris-johnson-close-to-brexit-deal-after-border-concessions" class="btn btn-primary ">The Guardian</a>
+        <a href="https://www.bbc.co.uk/news/uk-politics-50063022" class="btn btn-primary ">BBC</a>
       </div>
     </div>
 
     <div class="col-sm-1"></div>
 
     <div class="card col-sm-5"  >
-      <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Belchatow-elektrownia.jpg" alt="Card image" style="width:100%">
       <div class="card-body">
-        <h4 class="card-title">Guardian investigation into polluting companies.</h4>
-        <strong><p class="card-text" >The Facts Today:</p></strong>
-        <p class="card-text"style="text-indent: 20px;">This article was created as part of the Polluters Project - a collaboration between the Guardian, scientist and NGO’s to investigate fossil fuels companies.</p>
-        <p class="card-text"style="text-indent: 20px;">The analysis was done by Richard Heede at the Climate Accountability Institute.</p>
-        <p class="card-text"style="text-indent: 20px;">The study looks at the carbon output of companies since 1965 - this year was chosen as this was the year when the US President Lyndon Johnson, released a report by the Environmental Pollution Panel which set out the likely impact of continued fossil fuel use on global temperature.</p>
-        <p class="card-text"style="text-indent: 20px;">The report has found that the Top 20 greenhouse gas emitting companies have emitted 35% of all of our greenhouse gases - the equivalent of 480 billion tonnes of carbon dioxide since 1965.</p>
-        <p class="card-text"style="text-indent: 20px;">The highest emitter is Saudi Aramco which has emitted 4% of all greenhouse gases since 1965. This company has been called the worlds most profitable company by Bloomberg after they found out Aramco made a profit of nearly $34 billion in the first half of 2017.</p>
-        <p class="card-text"style="text-indent: 20px;">It is important to note - 90% of all emissions tied to these companies are due to the use of their products by customers.</p>
+        <h4 class="card-title"> Protests as Catalonian independence leaders jailed.</h4>
+        <ul><strong><p class="card-text" >The Facts Today:</p></strong>
+          <li><p class="card-text">Monday - 9 leaders of the Catalan independence movement were sentenced to between 9-13 years in prison on the grounds of sedition and misuse of public funds for their role in the October 2017 referendum.</p></li>
+          <li><p class="card-text">All 9 have been banned from participating in public office.</p></li>
+          <li><p class="card-text">Thousands of protesters converged on the regions airport, with the police using rubber bullets and batons. At least 75 have been injured.</p></li>
+          <li><p class="card-text">Catalan News reported in November that 47.2% of Catalans are in favour of independence, whereas 43.2% were against.</p></li>
+          </ul>
         <strong><p class="card-text"style="text-align:left">From around the Web:</p></strong>
-        <a href="https://www.theguardian.com/environment/2019/oct/09/revealed-20-firms-third-carbon-emissions" class="btn btn-primary ">The Guardian</a>
+        <a href="https://www.thelocal.es/20191015/spains-catalan-foreign-minister-slams-totalitarian-separatism" class="btn btn-primary ">The Local</a>
+        <a href="https://www.aljazeera.com/news/2019/10/spain-court-hands-catalan-leaders-13-years-jail-191014073841612.html" class="btn btn-primary ">AlJazeera</a>
+        <a href="http://www.catalannews.com/politics/item/support-for-independence-in-catalonia-rises-to-47-against-43-says-new-poll" class="btn btn-primary ">Catalan News</a>
       </div>
     </div>
 
     <div class="card col-sm-5"  >
-        <img class="card-img-top" src="https://i2.cdn.turner.com/money/dam/assets/130115121522-germany-economy-01152013-youtube.jpg" alt="Card image" style="width:100%">
         <div class="card-body">
-          <h4 class="card-title">Concerns for German economy.</h4>
-          <strong><p class="card-text" >The Facts Today:</p></strong>
-          <p class="card-text"style="text-indent: 20px;">Factory orders fell in Germany by 0.6% in August - which is twice the forecasted fall.</p>
-          <p class="card-text"style="text-indent: 20px;">Output rose by 0.3% in August - after two consecutive months of falling production.</p>
-          <p class="card-text"style="text-indent: 20px;">In the second quarter of this year, the German economy contracted by 0.1%, recent data is pointing to contraction for the third quarter - this would technically put Germany into recession. </p>
-          <p class="card-text"style="text-indent: 20px;">The British economy is on track to fall by 0.1% in the three months to September. The UK economy contracted in the three months leading to June.</p>
-          <p class="card-text"style="text-indent: 20px;">These economic contraction can be partly blamed on uncertainty around China-US trade deals and Brexit.</p>
+          <h4 class="card-title">Syrian Army and Russia move into Kurdish region.</h4>
+          <ul><strong><p class="card-text" >The Facts Today:</p></strong>
+          <li><p class="card-text">Thousands of Syrian Army troops have re-entered territory in the North East of Syria that had been in the control of Kurdish forces.</p></li>
+          <li><p class="card-text">Russia announced on Tuesday that its troops were patrolling the region between the Syrian and Turkish forces.</p></li>
+          <li><p class="card-text">This comes after US troops moved out of the region before a Turkish offensive into the Kurdish-controlled area.</p></li>
+          <li><p class="card-text">Since the conflict in Syria escalated last week, UNICEF estimates ‘nearly 70,000’ children have been displaced(read more below).</p></li>
+          </ul>
           <strong><p class="card-text"style="text-align:left">From around the Web:</p></strong>
-          <a href="https://www.reuters.com/article/us-germany-economy-industrial-output/german-industrial-output-rises-unexpectedly-in-august-idUSKBN1WN0HX" class="btn btn-primary ">Reuters</a>
+          <a href="https://www.unicef.org/press-releases/nearly-70000-children-displaced-violence-escalates-northeast-syria" class="btn btn-primary ">UNICEF</a>
+          <a href="https://www.bbc.co.uk/news/world-middle-east-50058859" class="btn btn-primary ">BBC</a>
         </div> 
     </div>
 
@@ -127,18 +93,20 @@
     <div class="col-sm-1"></div>
 
     <div class="card col-sm-5"  >
-        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Boris_Johnson_and_Leo_Varadkar_in_Dublin_-_2019-09-09.jpg/1600px-Boris_Johnson_and_Leo_Varadkar_in_Dublin_-_2019-09-09.jpg" alt="Card image" style="width:100%">
         <div class="card-body">
-          <h4 class="card-title">Brexit Plans</h4>
-          <strong><p class="card-text" >The Facts Today:</p></strong>
-          <p class="card-text"style="text-indent: 20px;">Brexit proposals were rejected yesterday by European Commissioners. A main sticking point was the failure of the UK government to stop a hard border on the island of Ireland.</p>
-          <p class="card-text"style="text-indent: 20px;">European Union chief Brexit negotiator Michel Barnier: ‘Brexit is something that is long term, it creates specific, serious problems, first and foremost in Ireland.’</p>
-          <p class="card-text"style="text-indent: 20px;">It was also announced that the Uk parliament will sit on Saturday the 19th - the first time Parliament has sat on a Saturday since 1982. </p>
-          <p class="card-text"style="text-indent: 20px;">If the UK government is to ask the EU for an extension, it must do so by the 19th.</p>
-          <p class="card-text"style="text-indent: 20px;">PM Johnson will be meeting with Irish Taoiseach Leo Varadkar today(Thursday) to try and work towards a possible deal, PM Johnson is still ‘cautiously optimistic’ he can get one.</p>
+          <h4 class="card-title">IMF warns of slowing growth.</h4>
+          <ul><strong><p class="card-text" >The Facts Today:</p></strong>
+            <li><p class="card-text">The IMF has said that growth is expected at 3% in 2019, which is the lowest growth rate since 2008.</p></li>
+            <li><p class="card-text">This can be compared to the growth rate in 2017, which was 2.5%</p></li>
+            <li><p class="card-text">A recession is a growth rate of 2.5%.</p></li>
+            <li><p class="card-text">The IMF estimates that if all scheduled US-China tariffs are in place, we could see a 0.8% fall in global economic growth.</p></li>
+            <li> <p class="card-text">Global growth should be lifted in 2020 due to emerging markets.</p></li>
+            <li><p class="card-text">There is a wide variance in the world in terms of economic growth:China is expected to slow from 6.6% in 2018 to 6.1%. Germany is expected to slow from 1.5% to 0.5%. Britain is expected to slow from 1.4% to 1.2%</p></li>
+            <li><p class="card-text">Gita Gopinath(IMF’s chief economist): “There is no room for policy mistakes and an urgent need for policymakers to cooperatively deescalate trade and geopolitical tensions”</p></li>
+            </ul>
           <strong><p class="card-text"style="text-align:left">From around the Web:</p></strong>
-          <a href="https://www.politico.eu/article/michel-barnier-eu-not-really-in-a-position-to-find-brexit-british-uk-agreement/" class="btn btn-primary ">Politico</a>
-          <a href="https://www.bbc.co.uk/news/uk-politics-49991408" class="btn btn-primary ">BBC</a>
+          <a href="https://www.imf.org/en/Publications/WEO/Issues/2019/10/01/world-economic-outlook-october-2019" class="btn btn-primary ">World Economic Outlook 2019</a>
+          <a href="https://www.thenational.ae/business/economy/imf-revises-global-economy-outlook-on-protectionism-and-geopolitics-1.923629" class="btn btn-primary ">The National</a>
         </div> 
     </div>
 
@@ -170,6 +138,7 @@
         <ul>
           <li><i class="fa fa-envelope"> </i><a class="grey-text text-lighten-3" href="mailto:benpharkin1@gmail.com">:  benpharkin1@gmail.com</a></li>
           <li><i class="fa fa-twitter"> </i><a class="grey-text text-lighten-3" href="https://twitter.com/TheFrontTweets">:  @thefronttweets</a></li>
+          <li><i class="fa fa-instagram"> </i><a class="grey-text text-lighten-3" href="https://www.instagram.com/thefrontposts/">:  @thefrontposts</a></li>
         </ul>
       </div>
     </div>
